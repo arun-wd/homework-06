@@ -19,14 +19,15 @@
 
             <div class="col-lg-4 search">
                 <div class="input-group mb-3">
-                    <input type="text" class="form-control" placeholder="City" aria-label="City" aria-describedby="button-addon2">
+                    <input type="text" class="form-control" placeholder="City,Country" aria-label="City" aria-describedby="button-addon2">
                     <div class="input-group-append">
-                      <button class="btn btn-outline-secondary" type="button" id="button-addon2">Search</button>
+                        <button class="btn btn-outline-primary" type="button" id="button-addon2">Search</button>
                     </div>
-                  </div>
+                    </div>
             </div>
 
             <div class="col-lg-8">
+                <div class="row" id="currentDay"></div>
                 <div class="row cityInfo">
 
                 </div>
@@ -36,14 +37,16 @@
                 </div>
             </div>
         </div>
-
-
     </div>
+
+
+  
 
 
 
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
