@@ -11,7 +11,6 @@ $("#button-addon2").on("click", function() {
     $("#textFour").empty();
     $("#textFive").empty();
     
-    localStorage.setItem(cityName);
 
         $(document).ready(function () {
             $("#currentDay").text(moment().format("dddd, MMMM Do"));
